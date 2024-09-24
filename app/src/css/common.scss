@@ -1,0 +1,29 @@
+body {
+  background: #fff;
+}
+
+.title {
+  color: teal;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+}
+
+.toggle {
+  display: none;
+}
+
+.favorite-list {
+  width: 20px;
+}
+
+.favorite-active {
+  color: gold;
+}
