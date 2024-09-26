@@ -1,49 +1,77 @@
-body {
-  background: #fff;
-}
+// body {
+//   background: #fff;
+// }
 
-.title {
-  color: teal;
-}
+// .title {
+//   color: teal;
+// }
 
-ul {
-  list-style: none;
-}
+// ul {
+//   list-style: none;
+// }
+
+// .container {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   width: 500px;
+//   height: 500px;
+// }
+
+// .toggle {
+//   display: none;
+// }
+
+// .favorite-list {
+//   width: 20px;
+// }
+
+// .favorite-active {
+//   color: gold;
+// }
+
+// .item-red {
+//   width: 100px;
+//   height: 100px;
+//   background-color: red;
+// }
+
+// .item-green {
+//   width: 100px;
+//   height: 100px;
+//   background-color: green;
+// }
+
+// .item-blue {
+//   width: 100px;
+//   height: 100px;
+//   background-color: blue;
+// }
 
 .container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 500px;
-  height: 500px;
+  margin: 100px 50px 50px 50px;
 }
 
-.toggle {
-  display: none;
+.content {
+  width: 156px;
+  border: 1px solid black;
+  margin: 0 auto;
 }
 
-.favorite-list {
-  width: 20px;
+.item {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: background 0.1s;
 }
 
-.favorite-active {
-  color: gold;
-}
-
-.item-red {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-}
-
-.item-green {
-  width: 100px;
-  height: 100px;
-  background-color: green;
-}
-
-.item-blue {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
+.item:hover {
+  background-color: #f1f1f10c;
 }
