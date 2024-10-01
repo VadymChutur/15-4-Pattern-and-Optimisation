@@ -19,6 +19,7 @@ console.log('Hello World');
 // }
 
 const contentEl = document.querySelector('.js-content');
+const winnerEl = document.querySelector('.js-winner');
 let player = 'X';
 let historyX = [];
 let history0 = [];
@@ -78,7 +79,7 @@ function onClick(event) {
   target.textContent = player;
 
   if (result) {
-    console.log(`Winner ${player}`);
+    winnerEl.textContent = `Winner ${player}`;
     resetGame();
     return;
   } else if (historyX.length + history0.length === 9) {
